@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-calibration
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-calibration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-dense-laser-assembler, ros-hydro-laser-joint-processor, ros-hydro-laser-joint-projector, ros-hydro-pr2-calibration-launch, ros-hydro-pr2-dense-laser-snapshotter, ros-hydro-pr2-se-calibration-launch
+Description: The pr2_calibration package
