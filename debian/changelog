@@ -1,0 +1,41 @@
+ros-hydro-laser-joint-processor (1.0.6-0raring) raring; urgency=high
+
+  * Changelogs
+  * Revert "Fix dependency of laser_joint_processor"
+  * Fix dependency of laser_joint_processor
+  * Contributors: Devon Ash, Ryohei Ueda, TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Thu, 04 Dec 2014 05:00:00 -0000
+
+ros-hydro-laser-joint-processor (1.0.5-0raring) raring; urgency=high
+
+  * Removed mainpage.dox for *
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 14 Oct 2014 04:00:00 -0000
+
+ros-hydro-laser-joint-processor (1.0.4-0raring) raring; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 17 Sep 2014 04:00:00 -0000
+
+ros-hydro-laser-joint-processor (1.0.3-0raring) raring; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Thu, 11 Sep 2014 04:00:00 -0000
+
+ros-hydro-laser-joint-processor (1.0.1-0raring) raring; urgency=high
+
+  * Catkin linted
+  * Added hydro devel, compiles and makes in hydro
+  * Broken cmake, fixed now
+  * Removed unnecessary build files and bin
+  * Catkinization of laser_joint_processor
+  * Fix laser detection with new opencv API.
+  * Contributors: Austin Hendrix, TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 08 Sep 2014 04:00:00 -0000
+
+
