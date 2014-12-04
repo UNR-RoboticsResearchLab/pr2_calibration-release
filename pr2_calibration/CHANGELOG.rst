@@ -1,0 +1,19 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package pr2_calibration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1.0.5 (2014-10-14)
+------------------
+* Added package.xml run depends for pr2_calibration
+* Contributors: dash
+
+1.0.4 (2014-09-17)
+------------------
+
+1.0.3 (2014-09-11)
+------------------
+
+1.0.1 (2014-09-08)
+------------------
+* Added metapackage
+* Contributors: TheDash
