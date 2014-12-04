@@ -1,0 +1,12 @@
+Source: ros-hydro-dense-laser-assembler
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-calibration-msgs, ros-hydro-catkin, ros-hydro-roscpp, ros-hydro-roscpp-serialization, ros-hydro-sensor-msgs, ros-hydro-settlerlib, ros-hydro-std-msgs
+Homepage: http://www.ros.org/wiki/dense_laser_assembler
+Standards-Version: 3.9.2
+
+Package: ros-hydro-dense-laser-assembler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-calibration-msgs, ros-hydro-roscpp, ros-hydro-roscpp-serialization, ros-hydro-sensor-msgs, ros-hydro-settlerlib, ros-hydro-std-msgs
+Description: Stores streaming data from a laser sensor in a dense representation. This allows the user to do 'image-like' processing on the data, and can also be used for very fast approx neighborhood searches. This package is still experimental and unstable. Expect its APIs to change.
