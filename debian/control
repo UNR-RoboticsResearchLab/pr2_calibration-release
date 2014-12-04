@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-se-calibration-launch
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-pr2-calibration-launch
+Homepage: http://ros.org/wiki/pr2_se_calibration_launch
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-se-calibration-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-pr2-calibration-launch
+Description: pr2_se_calibration_launch
