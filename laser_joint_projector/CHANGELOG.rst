@@ -2,6 +2,11 @@
 Changelog for package laser_joint_projector
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.7 (2015-02-06)
+------------------
+* Added CMakeModules depend
+* Contributors: TheDash
+
 1.0.6 (2014-12-04)
 ------------------
 * Changelogs
