@@ -1,0 +1,13 @@
+Source: ros-indigo-pr2-calibration-launch
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-calibration-estimation, ros-indigo-calibration-launch, ros-indigo-calibration-msgs, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-image-cb-detector, ros-indigo-image-view, ros-indigo-kdl-parser, ros-indigo-laser-cb-detector, ros-indigo-laser-joint-processor, ros-indigo-laser-joint-projector, ros-indigo-message-generation, ros-indigo-monocam-settler, ros-indigo-pr2-dense-laser-snapshotter, ros-indigo-pr2-teleop, ros-indigo-python-orocos-kdl, ros-indigo-robot-mechanism-controllers, ros-indigo-rospy, ros-indigo-rostest, ros-indigo-sensor-msgs, ros-indigo-stereo-image-proc
+Homepage: http://www.ros.org/wiki/pr2_calibration_launch
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-calibration-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-calibration-estimation, ros-indigo-calibration-launch, ros-indigo-calibration-msgs, ros-indigo-geometry-msgs, ros-indigo-image-cb-detector, ros-indigo-image-view, ros-indigo-kdl-parser, ros-indigo-laser-cb-detector, ros-indigo-laser-joint-processor, ros-indigo-laser-joint-projector, ros-indigo-message-runtime, ros-indigo-monocam-settler, ros-indigo-pr2-dense-laser-snapshotter, ros-indigo-pr2-teleop, ros-indigo-python-orocos-kdl, ros-indigo-robot-mechanism-controllers, ros-indigo-rospy, ros-indigo-rostest, ros-indigo-sensor-msgs, ros-indigo-stereo-image-proc
+Description: Launch files and configuration files needed to run the calibration pipeline on PR2.
+ This package is still experimental. Expect large changes tp occur.
