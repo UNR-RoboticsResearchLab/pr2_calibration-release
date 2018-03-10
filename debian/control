@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-calibration
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-calibration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-dense-laser-assembler, ros-indigo-laser-joint-processor, ros-indigo-laser-joint-projector, ros-indigo-pr2-calibration-launch, ros-indigo-pr2-dense-laser-snapshotter, ros-indigo-pr2-se-calibration-launch
+Description: The pr2_calibration package
