@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-se-calibration-launch
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-pr2-calibration-launch
+Homepage: http://ros.org/wiki/pr2_se_calibration_launch
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-se-calibration-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-pr2-calibration-launch
+Description: pr2_se_calibration_launch
