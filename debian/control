@@ -1,0 +1,13 @@
+Source: ros-kinetic-pr2-calibration-launch
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-calibration-estimation, ros-kinetic-calibration-launch, ros-kinetic-calibration-msgs, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-image-cb-detector, ros-kinetic-image-view, ros-kinetic-kdl-parser, ros-kinetic-laser-cb-detector, ros-kinetic-laser-joint-processor, ros-kinetic-laser-joint-projector, ros-kinetic-message-generation, ros-kinetic-monocam-settler, ros-kinetic-pr2-dense-laser-snapshotter, ros-kinetic-pr2-teleop, ros-kinetic-python-orocos-kdl, ros-kinetic-robot-mechanism-controllers, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-sensor-msgs, ros-kinetic-stereo-image-proc
+Homepage: http://www.ros.org/wiki/pr2_calibration_launch
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-calibration-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-calibration-estimation, ros-kinetic-calibration-launch, ros-kinetic-calibration-msgs, ros-kinetic-geometry-msgs, ros-kinetic-image-cb-detector, ros-kinetic-image-view, ros-kinetic-kdl-parser, ros-kinetic-laser-cb-detector, ros-kinetic-laser-joint-processor, ros-kinetic-laser-joint-projector, ros-kinetic-message-runtime, ros-kinetic-monocam-settler, ros-kinetic-pr2-dense-laser-snapshotter, ros-kinetic-pr2-teleop, ros-kinetic-python-orocos-kdl, ros-kinetic-robot-mechanism-controllers, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-sensor-msgs, ros-kinetic-stereo-image-proc
+Description: Launch files and configuration files needed to run the calibration pipeline on PR2.
+ This package is still experimental. Expect large changes tp occur.
