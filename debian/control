@@ -1,0 +1,13 @@
+Source: ros-kinetic-pr2-dense-laser-snapshotter
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-dense-laser-assembler, ros-kinetic-pr2-msgs
+Homepage: http://www.ros.org/wiki/pr2_dense_laser_snapshotter
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-dense-laser-snapshotter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-dense-laser-assembler, ros-kinetic-pr2-msgs
+Description: Stores the data from a series of laser scan messages in a dense representation, allowing users to easily perform image-like operations on intensity or range data.
+ This package is experimental. Expect APIs to change.
