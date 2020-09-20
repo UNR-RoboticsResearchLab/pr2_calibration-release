@@ -1,0 +1,62 @@
+ros-melodic-laser-joint-processor (1.0.11-3bionic) bionic; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Fri, 20 Apr 2018 07:00:00 -0000
+
+ros-melodic-laser-joint-processor (1.0.10-3bionic) bionic; urgency=high
+
+  * updated maintainer; fixed cmake warnings; fixed compiler warnings
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Thu, 22 Mar 2018 07:00:00 -0000
+
+ros-melodic-laser-joint-processor (1.0.7-3bionic) bionic; urgency=high
+
+  * Updated opencv dependencies and rosdep tag
+  * Fix catkin_package macro of laser_joint_processor
+  * Contributors: Ryohei Ueda, TheDash
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Fri, 06 Feb 2015 08:00:00 -0000
+
+ros-melodic-laser-joint-processor (1.0.6-3bionic) bionic; urgency=high
+
+  * Changelogs
+  * Revert "Fix dependency of laser_joint_processor"
+  * Fix dependency of laser_joint_processor
+  * Contributors: Devon Ash, Ryohei Ueda, TheDash
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Thu, 04 Dec 2014 08:00:00 -0000
+
+ros-melodic-laser-joint-processor (1.0.5-3bionic) bionic; urgency=high
+
+  * Removed mainpage.dox for *
+  * Contributors: TheDash
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Tue, 14 Oct 2014 07:00:00 -0000
+
+ros-melodic-laser-joint-processor (1.0.4-3bionic) bionic; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Wed, 17 Sep 2014 07:00:00 -0000
+
+ros-melodic-laser-joint-processor (1.0.3-3bionic) bionic; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Thu, 11 Sep 2014 07:00:00 -0000
+
+ros-melodic-laser-joint-processor (1.0.1-3bionic) bionic; urgency=high
+
+  * Catkin linted
+  * Added hydro devel, compiles and makes in hydro
+  * Broken cmake, fixed now
+  * Removed unnecessary build files and bin
+  * Catkinization of laser_joint_processor
+  * Fix laser detection with new opencv API.
+  * Contributors: Austin Hendrix, TheDash
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Mon, 08 Sep 2014 07:00:00 -0000
+
+
