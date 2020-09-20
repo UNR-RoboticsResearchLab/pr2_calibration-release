@@ -1,0 +1,13 @@
+Source: ros-melodic-dense-laser-assembler
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-calibration-msgs, ros-melodic-catkin, ros-melodic-roscpp, ros-melodic-roscpp-serialization, ros-melodic-sensor-msgs, ros-melodic-settlerlib, ros-melodic-std-msgs
+Homepage: http://www.ros.org/wiki/dense_laser_assembler
+Standards-Version: 3.9.2
+
+Package: ros-melodic-dense-laser-assembler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-calibration-msgs, ros-melodic-roscpp, ros-melodic-roscpp-serialization, ros-melodic-sensor-msgs, ros-melodic-settlerlib, ros-melodic-std-msgs
+Description: Stores streaming data from a laser sensor in a dense representation.
+ This allows the user to do 'image-like' processing on the data, and can also be used for very fast approx neighborhood searches. This package is still experimental and unstable. Expect its APIs to change.
