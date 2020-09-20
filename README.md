@@ -1,3 +1,33 @@
+## pr2_calibration (melodic) - 1.0.11-3
+
+The packages in the `pr2_calibration` repository were released into the `melodic` distro by running `/usr/bin/bloom-release pr2_calibration --track melodic --rosdistro melodic` on `Sun, 20 Sep 2020 22:00:20 -0000`
+
+These packages were released:
+- `dense_laser_assembler`
+- `laser_joint_processor`
+- `laser_joint_projector`
+- `pr2_calibration`
+- `pr2_calibration_launch`
+- `pr2_dense_laser_snapshotter`
+- `pr2_se_calibration_launch`
+
+Version of package(s) in repository `pr2_calibration`:
+
+- upstream repository: https://github.com/UNR-RoboticsResearchLab/pr2_calibration.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.0.11-2`
+- new version: `1.0.11-3`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## pr2_calibration (melodic) - 1.0.11-2
 
 The packages in the `pr2_calibration` repository were released into the `melodic` distro by running `/usr/bin/bloom-release pr2_calibration --track melodic --rosdistro melodic` on `Sun, 20 Sep 2020 21:43:12 -0000`
